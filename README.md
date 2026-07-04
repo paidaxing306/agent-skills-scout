@@ -109,21 +109,27 @@ GitHub 上 agent skill 项目太多了——合集、平台、安全专项、已
 | 紧凑行为协议/章程 | 非编码类（安全攻防、法律） |
 | | 作者已弃用 |
 
-## 已收录项目
+## 已收录项目 (20k+ stars)
 
 | 项目 | 星 | 类型 | 收录 |
 |------|----|------|:--:|
 | obra/superpowers | 245k | 技能包 | ✅ |
+| multica-ai/andrej-karpathy-skills | 187k | 规则 | 🔍 |
+| JuliusBrussee/caveman | 82k | 技能 | 🔍 |
 | addyosmani/agent-skills | 68k | 技能包 | ✅ |
 | Leonxlnx/taste-skill | 55k | 技能包 | ✅ |
-| PatrickJS/awesome-cursorrules | 40k | 合集 | 📚 |
-| ciembor/agent-rules-books | 2k | 规则 | ✅ |
-| NeekChaw/RIPER-5 | 2.6k | 协议 | ✅ |
-| intellectronica/ruler | 2.7k | 框架 | ✅ |
-| Kulaxyz/self-learning-skills | 778 | 技能 | ✅ |
-| entropyvortex/meta-llm-charter | 245 | 章程 | ✅ |
-| madebyaris/advance-minimax-m3-cursor-rules | 124 | 规则 | ✅ |
-| sisyphusse1-ops/claude-code-pro-pack | 30 | 规则 | ✅ |
+
+> ✅ = 已收录  🔍 = 新发现待评估  📚 = 合集（不可安装）  🏗️ = 平台（太重）
+
+### 合集 & 平台（不可直接安装）
+
+| 项目 | 星 | 类型 |
+|------|----|------|
+| affaan-m/ECC | 225k | 🏗️ 平台 |
+| bytedance/deer-flow | 76k | 🏗️ 平台 |
+| ruvnet/ruflo | 62k | 🏗️ 平台 |
+| hesreallyhim/awesome-claude-code | 47k | 📚 合集 |
+| PatrickJS/awesome-cursorrules | 40k | 📚 合集 |
 
 ## 项目结构
 

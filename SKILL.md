@@ -16,7 +16,7 @@ description: 搜索 GitHub 上 20k+ stars 的 AI agent 编码技能/规则项目
 
 ### 第1步：多维度搜索
 
-用 GitHub API 搜索，代理走 `https_proxy=http://127.0.0.1:7890`：
+用 GitHub API 搜索（国内用户可选走代理 `https_proxy=http://127.0.0.1:7890`）：
 
 ```bash
 # 搜索关键词组合
@@ -92,6 +92,7 @@ description: 搜索 GitHub 上 20k+ stars 的 AI agent 编码技能/规则项目
 ## 搜索查询模板
 
 ```bash
+# 国内用户可选代理
 export https_proxy=http://127.0.0.1:7890
 
 curl -s "https://api.github.com/search/repositories?q=agent+skills+coding+stars:>20000&sort=stars&per_page=20" | python -c "

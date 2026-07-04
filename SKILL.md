@@ -47,8 +47,8 @@ description: 搜索 GitHub 上 20k+ stars 的 AI agent 编码技能/规则项目
 
 | # | 项目 | 星 | 类型 | 简介 |
 |---|------|----|----|------|
-| 1 | owner/repo | ★xxxk | 规则 | 一句话 |
-| 2 | owner/repo | ★xxk | 技能 | 一句话 |
+| 1 | [owner/repo](https://github.com/owner/repo) | ★xxxk | 规则 | 一句话 |
+| 2 | [owner/repo](https://github.com/owner/repo) | ★xxk | 技能 | 一句话 |
 
 回复编号选择项目，如 "2 4" 或 "全部" 或 "跳过"
 ```
@@ -98,7 +98,7 @@ export https_proxy=http://127.0.0.1:7890
 curl -s "https://api.github.com/search/repositories?q=agent+skills+coding+stars:>20000&sort=stars&per_page=20" | python -c "
 import json,sys
 for r in json.load(sys.stdin).get('items',[]):
-    print(f\"{r['stargazers_count']}|{r['full_name']}|{r.get('description','')[:150]}\")
+    print(f\"{r['stargazers_count']}|{r['full_name']}|{r['html_url']}|{r.get('description','')[:150]}\")
 "
 ```
 

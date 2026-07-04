@@ -12,6 +12,15 @@
 
 Search GitHub for 20k+ stars agent skill repos → you pick → confirm target → auto-install to Hermes/Cursor/Claude Code/Codex.
 
+## Usage
+
+```
+"skill-scout" or "find high-star skills"
+→ Search → List → You pick → You choose target → Install
+```
+
+Supports: Hermes / Cursor / Claude Code / Codex
+
 ## Indexed Projects
 
 | Repo | Stars | Description |
@@ -31,17 +40,8 @@ Search GitHub for 20k+ stars agent skill repos → you pick → confirm target �
 | affaan-m/ECC | 225k | Full agent platform, too heavy |
 | bytedance/deer-flow | 76k | Full SuperAgent platform |
 | ruvnet/ruflo | 62k | Agent meta-harness |
-| PatrickJS/awesome-cursorrules | 40k | Collection only |
 | hesreallyhim/awesome-claude-code | 47k | Collection only |
-
-## Usage
-
-```
-"skill-scout" or "find high-star skills"
-→ Search → List → You pick → You choose target → Install
-```
-
-Supports: Hermes / Cursor / Claude Code / Codex
+| PatrickJS/awesome-cursorrules | 40k | Collection only |
 
 ## License
 

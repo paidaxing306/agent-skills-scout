@@ -45,4 +45,4 @@ Supports: Hermes / Cursor / Claude Code / Codex
 
 ## License
 
-MIT
+Apache 2.0

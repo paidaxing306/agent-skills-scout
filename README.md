@@ -1,10 +1,9 @@
 # 🕵️ Skill Scout
 
 > 发现 GitHub 高星 AI Agent 技能，两次确认，一键安装。
-> Discover high-star AI agent skills on GitHub. Two-step confirm, one-click install.
 
 <p align="center">
-  <b>中文</b> · <a href="#english">English</a>
+  <b>中文</b> · <a href="README_EN.md">English</a>
 </p>
 
 <p align="center">
@@ -130,7 +129,8 @@ GitHub 上 agent skill 项目太多了——合集、平台、安全专项、已
 
 ```
 skill-scout/
-├── README.md        # 本文件（中英双版）
+├── README.md        # 中文
+├── README_EN.md     # English
 ├── AGENTS.md        # 项目 agent 规则
 ├── installed.md     # 已安装清单
 └── .gitignore
@@ -139,33 +139,3 @@ skill-scout/
 ## License
 
 MIT
-
----
-
-## English
-
-### What
-
-**Skill Scout** discovers and installs high-star AI agent coding skills/rules from GitHub. It searches, filters, presents a ranked list, and waits for your confirmation on both project selection and install target before proceeding.
-
-### Why
-
-- Too many repos, hard to filter manually
-- High stars doesn't mean installable (collections, platforms, security-only)
-- Manual Chinese translation and multi-agent format adaptation is tedious
-- **Two-step confirmation** prevents unwanted installs
-
-### Quick Start
-
-```
-"skill-scout" or "find high-star skills"
-→ Search → Filter → List → You pick projects → You pick target → Install → Report
-```
-
-### Supported Agents
-
-Hermes (native) · Cursor (.cursor/rules/) · Claude Code (CLAUDE.md) · Codex (AGENTS.md)
-
-### Keywords
-
-`agent skills coding` · `agent rules cursor` · `AGENTS.md rules` · `claude code skills` · `coding agent discipline`
